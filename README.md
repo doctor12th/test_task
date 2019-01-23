@@ -1,4 +1,2 @@
-1. MYSQL
-  Create views from existing database
-2. PHP
-  Select and sort created views, using JQuery and JSON
+1. MYSQL: create views from existing database
+2. PHP: select and sort created views, using JQuery and JSON
