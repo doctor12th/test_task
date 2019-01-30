@@ -26,7 +26,7 @@ if ($where1) $queryParams[':filter_date'] = $_GET['filter_date'];
 if ($where2) $queryParams[':filter_id'] = $_GET['filter_id'];
 
 
-$databaseConnection = new PDO("mysql:host=localhost;dbname=test", "doctor", "Azathot");
+$databaseConnection = new PDO("mysql:host=localhost;dbname=test", "root", "");
 $databaseConnection->exec("set names utf8");
 $statement = $databaseConnection->prepare($sql);
 $statement->execute($queryParams);
